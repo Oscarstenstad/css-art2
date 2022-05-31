@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-color: #256c9e;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+            }
+            .frame {
+                background: linear-gradient(#f0530d, #f0e43f);
+                position: relative;
+                width: 500px;
+                height: 500px;
+                border-radius: 50%;
+                margin-top: 100px;
+                overflow: hidden;
+                border: 10px solid #7bc1ba;
+            }
+            .sun {
+                background: radial-gradient(#f95a00, #deeb2f);
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+                margin-left: 23.5%;
+                margin-top: -120px; 
+                border: 5px solid #f9de3e;
+            }
+            .cloud {
+                background: linear-gradient(#f9e7ac, #ffffff);
+                opacity: 0.7;
+                position: absolute;
+                z-index: 1;
+                border-radius: 30px;
+            }
+            .c1 {
+                width: 200px;
+                height: 40px;
+                margin-left: 200px;
+                margin-top: 65px;
+            }
+            .c2 {
+                width: 200px;
+                height: 40px;
+                margin-left: 260px;
+                margin-top: 50px;
+            }
+            .c3 {
+                width: 150px;
+                height: 30px;
+                margin-left: 30px;
+                margin-top: 135px;
+            }
+            .mountain {
+                background: linear-gradient(60deg, #36807f, #26405f);
+                position: absolute;
+                transform: rotate(45deg);
+                margin-top: 150px;
+                margin-left: 20px;
+                border: 5px solid #c1a03f;
+            }
+            .m1 {
+                width: 200px;
+                height: 200px;
+                margin-top: 150px;
+                margin-left: 20px;
+            }
+            .m2 {
+                width: 400px;
+                height: 400px;
+                margin-top: 100px;
+                margin-left: 130px;
+            }
+            .sea {
+                background:linear-gradient(#256c9e, rgb(57, 105, 238));
+                position: absolute;
+                width: 700px;
+                height: 80px;
+                margin-top: 220px;
+            }
+            .sea1 {
+                margin-top: 220px;
+            }
+            .sea2 {
+                margin-top: 265px;
+            }
+            .sea3 {
+                margin-top: 310px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="frame">
+            <div class="sun"></div>
+            <div class="c1 cloud"></div>
+            <div class="c2 cloud"></div>
+            <div class="c3 cloud"></div>
+            <div class="m1 mountain"></div>
+            <div class="m2 mountain"></div>
+            <div class="sea1 sea"></div>
+            <div class="sea2 sea"></div>
+            <div class="sea3 sea"></div>            
+        </div>
+    </body>
+</html>
